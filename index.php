@@ -3,7 +3,7 @@
 <head>
     <title>Youtube Downloader</title>
     <meta name="keywords" content="Video downloader, download youtube, video download, youtube video, youtube downloader, download youtube FLV, download youtube MP4, download youtube 3GP, php video downloader" />
-  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="./bootstrap.min.css" rel="stylesheet" media="screen">
 	 <style type="text/css">
       body {
         padding-top: 40px;
