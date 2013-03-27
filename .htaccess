@@ -1,0 +1,9 @@
+# intercept request for getvideo
+RewriteEngine On
+RewriteRule ^getvideo.mp4$ getvideo.php
+
+# For remove the .php in the watch file
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
